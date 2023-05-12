@@ -23,3 +23,24 @@ font-family: "Open Sans", Arial;
     float: right;
     margin: 10px;
 }
+.header .header-nav ul {
+    /* retirar a bolota*/
+    list-style: none;
+
+}
+
+.header .header-nav ul li {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header .header-nav ul li a {
+    color: yellow;
+    font-weight: 700;
+}
+
+
+
+
