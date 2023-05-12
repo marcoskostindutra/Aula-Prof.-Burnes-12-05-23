@@ -23,7 +23,7 @@
             <img src="imagens/submarino-logo.png" alt="sub.marino" class="header-logo">
         </a>
 
-        <a href="javascript:mostraMenu()" title="Menu" class="header-menu">
+        <a href="javascript:mostrarMenu()" title="Menu" class="header-menu">
             <img src="imagens/menu.png" alt="Menu" class="header-btn"> 
         </a>
 
@@ -49,6 +49,14 @@
         </nav>
 
     </header>
+
+    <script>
+        function mostrarMenu() {
+            document.querySelector(".header-nav").classList.toggle("mostrar");
+        }
+    </script>
+
+
 </body>
 
 </html>

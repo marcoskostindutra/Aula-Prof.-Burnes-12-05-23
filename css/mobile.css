@@ -39,8 +39,15 @@ font-family: "Open Sans", Arial;
 .header .header-nav ul li a {
     color: yellow;
     font-weight: 700;
+    text-decoration: none;
 }
 
+.header .header-nav {
+    /* esconder */
+    display: none;
+}
 
-
+.header .mostrar {
+    display: block;
+}
 

@@ -4,4 +4,22 @@
         /* esconder o botão do menu */
         display: none;
     }
+
+
+.header .header-nav {
+    /* mostrar menu */
+    display: block;
+    float: right;
+}
+
+.header .header-nav ul li {
+    display: inline-block;
+    width: auto;
+    margin: 10px;
+}
+/* mudar a cor do link ao passar o mouse */
+.header .header-nav ul li a:hover {
+    color: black;
+}
+
 }
