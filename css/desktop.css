@@ -1,0 +1,7 @@
+/* regra para desktop */
+@media (min-width: 420px) and (max-width: 1920px) {
+    .header .header-menu {
+        /* esconder o botão do menu */
+        display: none;
+    }
+}

@@ -12,3 +12,14 @@ font-family: "Open Sans", Arial;
     padding: 10px;
     box-sizing: border-box;
 }
+
+.header .header-logo {
+    width: 200px;
+}
+
+.header .header-btn {
+    width: 40px;
+    /* jogar a direita da tela */
+    float: right;
+    margin: 10px;
+}
