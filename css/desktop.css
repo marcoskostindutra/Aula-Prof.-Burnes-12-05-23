@@ -31,5 +31,14 @@
     margin: 10px;
 }
 
+.grid .grid-titulo {
+    /* altura */
+    height: 60px;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+}
 
 }

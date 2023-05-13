@@ -75,6 +75,13 @@ main {
     box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    /* dist cima p/ baixo, esq / dir, opacidade, cor */
+    box-shadow: 10px 10px 0 #333;
+}
+
+.grid .grid-coluna:hover {
+    border: 1px solid #333;
 }
 
 .grid .grid-img {
