@@ -17,6 +17,7 @@
     <link rel="shortcut icon" href="imagens/icone.png">
 </head>
 <!-- comentário -->
+
 <body>
     <header class="header">
         <a href="index.html" title="/home">
@@ -24,14 +25,14 @@
         </a>
 
         <a href="javascript:mostrarMenu()" title="Menu" class="header-menu">
-            <img src="imagens/menu.png" alt="Menu" class="header-btn"> 
+            <img src="imagens/menu.png" alt="Menu" class="header-btn">
         </a>
 
         <nav class="header-nav">
             <ul>
                 <li>
                     <a href="index.html" title="Home">
-                    Página Inicial
+                        Página Inicial
                     </a>
                 </li>
                 <li>
@@ -45,11 +46,55 @@
                     </a>
                 </li>
             </ul>
-
         </nav>
-
     </header>
 
+    <div class="banner">
+        <img src="imagens/banner.webp" alt="Banner" class="banner-img">
+    </div>
+
+    <main>
+        <h1>Produto em Destaque</h1>
+
+        <div class="grid">
+            <div class="grid-coluna">
+                <img src="imagens/01.webp" alt="Produto 01" class="grid-img">
+                <p class="grid-titulo">
+                    Smartphone Motorola 6G com 32GB de Memória
+                </p>
+                <p class="grid-valor"> R$ 9.000,00</p>
+            </div>
+
+            <div class="grid-coluna">
+                <img src="imagens/02.webp" alt="Produto 02" class="grid-img">
+                <p class="grid-titulo">
+                    Smartphone Motorola E22 6G com 32GB de Memória
+                </p>
+                <p class="grid-valor"> R$ 19.000,00</p>
+            </div>
+
+            <div class="grid-coluna">
+                <img src="imagens/03.webp" alt="Produto 03" class="grid-img">
+                <p class="grid-titulo">
+                    Naruto Mangá
+                </p>
+                <p class="grid-valor"> R$ 15,00</p>
+            </div>
+
+            <div class="grid-coluna">
+                <img src="imagens/04.webp" alt="Produto 04" class="grid-img">
+                <p class="grid-titulo">
+                    Notbook Acer i5 11° geração com 16 gb de RAM e 480GB SSD e Gravador de CD
+                </p>
+                <p class="grid-valor"> R$ 6.000,00</p>
+            </div>
+
+
+
+
+
+        </div><!--FIM DA GRID-->
+    </main>
     <script>
         function mostrarMenu() {
             document.querySelector(".header-nav").classList.toggle("mostrar");
@@ -60,11 +105,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
