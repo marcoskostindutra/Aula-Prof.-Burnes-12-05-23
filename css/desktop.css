@@ -22,4 +22,14 @@
     color: black;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.grid .grid-coluna {
+    margin: 10px;
+}
+
+
 }

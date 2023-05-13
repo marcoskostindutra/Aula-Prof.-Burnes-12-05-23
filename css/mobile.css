@@ -11,6 +11,9 @@ font-family: "Open Sans", Arial;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    /* fixa no topo */
+    position: fixed;
+    top: 0;
 }
 
 .header .header-logo {
@@ -57,6 +60,7 @@ font-family: "Open Sans", Arial;
 
 body {
     background-color: #f1f1f1;
+    padding-top: 85px;
 }
 
 main {
